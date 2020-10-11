@@ -4,6 +4,7 @@ all:
 
 proto:
 	protoc --go_out=plugins=grpc:. nimbler_reader/proto/contract.proto
+	protoc --go_out=plugins=grpc:. nimbler_writer/proto/contract.proto
 
 
 keys:
